@@ -249,17 +249,18 @@ html {
   font-size: 2.3rem;
   font-weight: 700;
   color: #796717;
-  margin-top: 2rem;
+  margin: 1rem 0.5rem 0;
 }
 
 .team-member-name span {
   font-size: 1.7rem;
+  margin-left: 1rem;
 }
 
 .team-member-skills {
   display: flex;
   justify-content: space-between;
-  margin: 1rem 0 2rem 0;
+  margin: 1rem 0.5rem  2rem;
 }
 
 .team-member-skills li {
@@ -274,7 +275,10 @@ html {
   border-radius: 5rem;
   font-size: 1.5rem;
   letter-spacing: 0.2rem;
+  margin: 0 0.5rem  2rem;
+  cursor: pointer;
 }
+
 
 .story-btn {
   width: 4rem;

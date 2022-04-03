@@ -415,6 +415,7 @@ html {
   min-height: 10rem;
   max-width: 100%;
   min-width: 70%;
+  resize: none;
 }
 
 .contact-form button[type="submit"] {
@@ -422,8 +423,12 @@ html {
   color: #fff;
   font-weight: bolder;
   letter-spacing: 0.5rem;
+  padding: 1rem;
+  border-radius: 5rem;
+  border: none;
   cursor: pointer;
   transition: background-color 0.5s;
+  margin: 1rem;
 }
 
 .contact-form button[type="submit"]:hover {
@@ -431,8 +436,8 @@ html {
 }
 
 .copyright {
-  font-size: 2rem;
+  font-size: 1.5rem;
   letter-spacing: 0.2rem;
-  color: #444;
+  color: rgb(133, 133, 133);
   margin-top: 5rem;
 }

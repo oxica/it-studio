@@ -142,47 +142,47 @@ html {
   height: 70%;
 }
 
-.customer{
+.customer {
   width: 35rem;
   height: 50rem;
   background-color: #eee;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   padding: 2rem;
   box-shadow: 1rem 1rem 2rem #ddd, -1rem -1rem 2rem #eee;
   transition: box-shadow 0.5s;
 }
 
-.customer:hover{
+.customer:hover {
   box-shadow: 2rem 2rem 3rem #ddd, -2rem -2rem 3rem #eee;
 }
 
-.customer:first-child{
+.customer:first-child {
   align-self: flex-end;
 }
 
-.customer:last-child{
+.customer:last-child {
   align-self: flex-start;
 }
 
-.fa-quote-left{
+.fa-quote-left {
   resize: 4rem;
   color: rgb(250, 162, 0);
 }
 
-.customer-text{
+.customer-text {
   font-size: 1.8rem;
   margin: 2.5rem 0;
   text-align: justify;
 }
 
-.customer-text::first-letter{
+.customer-text::first-letter {
   margin-left: 1rem;
 }
 
-.customer-rating{
+.customer-rating {
   font-size: 2rem;
   color: rgb(250, 162, 0);
 }
@@ -195,7 +195,7 @@ html {
   margin: 2rem 0;
 }
 
-.customer-name{
+.customer-name {
   font-size: 2rem;
   font-weight: 700;
 }
@@ -260,7 +260,7 @@ html {
 .team-member-skills {
   display: flex;
   justify-content: space-between;
-  margin: 1rem 0.5rem  2rem;
+  margin: 1rem 0.5rem 2rem;
 }
 
 .team-member-skills li {
@@ -275,10 +275,9 @@ html {
   border-radius: 5rem;
   font-size: 1.5rem;
   letter-spacing: 0.2rem;
-  margin: 0 0.5rem  2rem;
+  margin: 0 0.5rem 2rem;
   cursor: pointer;
 }
-
 
 .story-btn {
   width: 4rem;
@@ -440,4 +439,25 @@ html {
   letter-spacing: 0.2rem;
   color: rgb(133, 133, 133);
   margin-top: 5rem;
+}
+
+.scroll-up-btn {
+  width: 5rem;
+  height: 5rem;
+  background-color: rgba(50, 231, 255, 0.8);
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  border-radius: 50%;
+  font-size: 1.6rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.scroll-up-btn:hover {
+  background-color: #32e7ff;
 }

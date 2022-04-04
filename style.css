@@ -12,7 +12,7 @@
 
 html {
   font-size: 62.5%;
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 
 .container {
@@ -441,23 +441,32 @@ html {
   margin-top: 5rem;
 }
 
-.scroll-up-btn {
+.back-to-top {
+position: fixed;
+ bottom: 2rem;
+  right: 2rem;
+  z-index: 200;
   width: 5rem;
   height: 5rem;
+font-size: 1.6rem;
+
   background-color: rgba(50, 231, 255, 0.8);
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
-  border-radius: 50%;
-  font-size: 1.6rem;
   color: #fff;
-  display: flex;
+  cursor: pointer;
+  border-radius: 50%;
+  display: none;
+  
+  
   align-items: center;
   justify-content: center;
-  cursor: pointer;
+ 
   transition: background-color 0.5s;
 }
 
-.scroll-up-btn:hover {
+.back-to-top:hover {
   background-color: #32e7ff;
+}
+
+.back-to-top-show {
+  display: flex;
 }
